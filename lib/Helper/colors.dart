@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+const primary_color = Color(0xFF104160);
+const primary_text_color = Color(0xFF114566);
+const secondary_text_color = Color(0xFFAAAAAA);
+const whiteColor = Color(0xFFFFFFFF);
+const yellowColor = Color(0xFFFFD166);
+const third_color = Color(0xFF073B4C);
+const greenColor = Color(0xFF06D6A0);
+const fourth_color = Color(0xFF0F3F5D);
+const open_gray_color = Color(0xFFE8E8E8);
+const gray_color = Color(0xFFC8C8C8);
+const black_color = Color(0xFF000000);
+const pink_color = Color(0xFFFCF9F1);

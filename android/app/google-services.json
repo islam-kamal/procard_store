@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545721134187",
+    "project_id": "prodcard-50cee",
+    "storage_bucket": "prodcard-50cee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545721134187:android:b9e6a74ffb010026f4552e",
+        "android_client_info": {
+          "package_name": "com.Ibtdi.procard_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545721134187-fr4016j97ajpqdu5dnqduf6k32lrr83h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClwsKeJ-yWeQDTVYLIVcHg7tUuS1ezZWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545721134187-fr4016j97ajpqdu5dnqduf6k32lrr83h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

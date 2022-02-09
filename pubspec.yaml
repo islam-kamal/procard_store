@@ -1,0 +1,186 @@
+name: procard_store
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  email_launcher:
+  bloc:
+  rxdart:
+  dio:
+  flutter_bloc:
+  shared_preferences:
+  ext_storage:
+  carousel_slider: ^3.0.0
+  localize_and_translate:
+  flutter_spinkit:
+  flutter_offline:
+  notification_permissions:
+  firebase_core:
+  firebase_auth: ^2.0.0
+  firebase_messaging:
+  shimmer:
+  image_picker:
+  country_list_pick:
+  flushbar:
+  circle_bottom_navigation_bar: ^1.0.0
+  printing: ^5.4.3
+  url_launcher:
+  clipboard:
+  flutter_html: 1.3.0
+  sqflite:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - Assets/Lang/en.json
+     - Assets/Lang/ar.json
+     - Assets/Images/all.png
+     - Assets/Images/careem.png
+     - Assets/Images/cart.png
+     - Assets/Images/category.png
+     - Assets/Images/favefull.png
+     - Assets/Images/favewh.png
+     - Assets/Images/games.png
+     - Assets/Images/home.png
+     - Assets/Images/menu.png
+     - Assets/Images/notifi.png
+     - Assets/Images/play.png
+     - Assets/Images/raqmia.png
+     - Assets/Images/search.png
+     - Assets/Images/shopping.png
+     - Assets/Images/slide.png
+     - Assets/Images/tlogo.png
+     - Assets/Images/user.png
+     - Assets/Images/skip.png
+     - Assets/Images/sshrot.png
+     - Assets/Images/sabout.png
+     - Assets/Images/saccounts.png
+     - Assets/Images/scall.png
+     - Assets/Images/shome.png
+     - Assets/Images/sidetop.png
+     - Assets/Images/soffers.png
+     - Assets/Images/sout.png
+     - Assets/Images/sprivacy.png
+     - Assets/Images/squestion.png
+     - Assets/Images/srec.png
+     - Assets/Images/rec.png
+     - Assets/Images/shahid.png
+     - Assets/Images/logoinfo.png
+     - Assets/Images/shrotfull.png
+     - Assets/Images/priull.png
+     - Assets/Images/belad.png
+     - Assets/Images/raghi.png
+     - Assets/Images/star_lg.png
+     - Assets/Images/star_lg_outline.png
+     - Assets/Images/delnot.png
+     - Assets/Images/logo.png
+     - Assets/Images/callwh.png
+     - Assets/Images/lockwh.png
+     - Assets/Images/mailwh.png
+     - Assets/Images/saudi.png
+     - Assets/Images/camera.png
+     - Assets/Images/done.png
+     - Assets/Images/reset.png
+     - Assets/Images/newpass.png
+     - Assets/Images/splashscreen.png
+     - Assets/Images/raseed.png
+     - Assets/Images/discounts.png
+     - Assets/Images/cards.png
+     - Assets/Images/sells.png
+     - Assets/Images/orders.png
+     - Assets/Images/average.png
+     - Assets/Images/settings.png
+     - Assets/Images/favourite.png
+     - Assets/Images/segl.png
+     - Assets/Images/persona.png
+     - Assets/Images/bg.png
+     - Assets/Images/leftsm.png
+     - Assets/Images/time.png
+     - Assets/Images/myrseed.png
+     - Assets/Images/visaop.png
+     - Assets/Images/addcard.png
+     - Assets/Images/backlbl.png
+     - Assets/Images/plusor.png
+     - Assets/Images/filter.png
+     - Assets/Images/list.png
+     - Assets/Images/hist.png
+     - Assets/Images/cancel.png
+     - Assets/Images/print.png
+     - Assets/Images/shnow.png
+     - Assets/Images/popcancel.png
+     - Assets/Images/excel.png
+     - Assets/Images/pdf.png
+     - Assets/Images/whats.png
+     - Assets/Images/facebook.png
+     - Assets/Images/flag.png
+     - Assets/Images/value.png
+     - Assets/Images/fullqasema.png
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
